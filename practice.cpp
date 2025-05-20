@@ -104,9 +104,12 @@ int main(void) {
 	int n, m;
 	printf("n = ");
 	scanf_s("%d", &n);
-	for (int i = 1;i <= n;i++) {
+	for (int i = n;i >= 1;i--) {
 		for (int j = 0; j < i;j++) {
 			printf("*");
 		}
 		printf("\n");
 	}
+	
+	return 0;
+}
